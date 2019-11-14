@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:boder-b0x;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../mak.jpg);
+	/**/
+	background-size: cover;
+	height:100vh;
+	width:80%;
+	background-position: center;
+	font-family: Century Gothic;
+}
+
+.topnav ul{	
+float:right;
+list-style:none;
+color:#fff;
+margin-top: 10px;
+
+}
+.topnav ul li{
+display: inline-block;
+}
+.topnav ul li a{
+text-decoration:none;
+color:yellow;
+padding:5px 20px;
+border:1px solid transparent;
+transition :0.6s ease;
+}
+.topnav ul li a:hover{
+	background-color:white;
+	color:#000;
+
+}
+.title{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.title h1{
+	color:yellow;
+	font-size:70px;
+}
+}
+
+
+
+
+	
